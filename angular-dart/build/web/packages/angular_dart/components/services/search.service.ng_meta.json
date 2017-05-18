@@ -1,0 +1,92 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "dart:async",
+        "5": false
+      },
+      {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular_dart/components/services/api.books.services.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular_dart/components/services/books.dart",
+        "5": false
+      },
+      {
+        "1": "package:rxdart/rxdart.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "SearchService",
+        "4": [
+          {
+            "1": "Injectable",
+            "4": false
+          }
+        ],
+        "5": [
+          {
+            "1": "InMemoryDataService",
+            "4": "booksService"
+          }
+        ]
+      }
+    ],
+    "6": "search.service.dart",
+    "7": [
+      {
+        "1": "package:angular2/angular2.template.dart",
+        "4": "i0"
+      },
+      {
+        "1": "package:angular_dart/components/services/api.books.services.template.dart",
+        "4": "i1"
+      },
+      {
+        "1": "package:angular_dart/components/services/books.template.dart",
+        "4": "i2"
+      }
+    ]
+  },
+  "type": {
+    "SearchService": {
+      "class": "Type",
+      "name": "SearchService",
+      "moduleUrl": "asset:angular_dart/lib/components/services/search.service.dart",
+      "prefix": null,
+      "isHost": false,
+      "value": null,
+      "diDeps": [
+        {
+          "token": {
+            "value": null,
+            "identifier": {
+              "class": "Identifier",
+              "name": "InMemoryDataService",
+              "moduleUrl": "asset:angular_dart/lib/components/services/api.books.services.dart",
+              "prefix": null,
+              "value": null
+            },
+            "identifierIsInstance": false
+          },
+          "value": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false,
+          "isValue": false
+        }
+      ]
+    }
+  },
+  "alias": {}
+}

@@ -1,0 +1,13 @@
+{
+  "ngDeps": null,
+  "type": {
+    "Book": {
+      "class": "Identifier",
+      "name": "Book",
+      "moduleUrl": "asset:angular_dart/lib/components/services/books.dart",
+      "prefix": null,
+      "value": null
+    }
+  },
+  "alias": {}
+}
